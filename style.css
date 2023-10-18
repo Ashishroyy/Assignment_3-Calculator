@@ -1,0 +1,57 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,  sans-serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg,#afadad,#d0caca);
+}
+.calculator{
+  padding: 30px;
+  box-shadow: black;
+  height: 80%;
+
+}
+.input{
+  padding: 10px 0px 5px 12px;
+  margin: 0px;
+  font-size: 24px;
+  border: none;
+}
+button{
+  width: 60px;
+  border: none;
+  background-color: rgb(15, 15, 15);
+  padding: 16px;
+  margin: -3px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.bg-black{
+  color: #f3eaea;
+  border: none;
+  width: 98px;
+}
+.bg-grey{
+  background-color: #7a7575;
+  color: #ccc;
+  border: none;
+  padding: 16px 0px 17px 4px
+}
+.btn-ac{
+  background-color: rgb(28, 201, 143);
+  padding: 15px 5px 3px 3px;
+  text-align: center;
+  border: none;
+}
+.calc{
+  margin-left: 3px;
+}
